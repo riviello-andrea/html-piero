@@ -32,3 +32,16 @@ p {
 p {
     color: whitesmoke
 }
+
+.centro {
+    display: flex;
+    justify-content: center
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    color:lightslategrey;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
