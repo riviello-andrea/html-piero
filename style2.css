@@ -1,0 +1,34 @@
+.center-box {
+    display: flex;
+    justify-content: center
+}
+
+body {
+    background-color:black;
+}
+
+.carname {
+    color: red;
+    text-align: center;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color:darkred;
+    font-size: 2rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.s {
+    display: flex;
+    justify-content: space-evenly
+}
+
+p {
+    color: whitesmoke
+}
