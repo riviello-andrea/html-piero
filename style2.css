@@ -12,23 +12,38 @@
 div.fading {
     display: flex;
     justify-content: center;
-    animation: FadeInOut 1.5s infinite alternate
+    animation: FadeInOut 4s infinite alternate-reverse
  }
 
 @keyframes FadeInOut {
     0% {opacity:1;}
+    5% {opacity:.95;}
+    10% {opacity: 0.9;}
+    15% {opacity: 0.85;}
+    20% {opacity: 0.8;}
     25% {opacity:.75;}
+    30% {opacity: 0.7;}
+    35% {opacity: 0.65;}
+    40% {opacity:.6;}
+    45% {opacity: 0.55;}
     50% {opacity:.5;}
-    100% {opacity:0;}
-    animation-name: FadeInOut;
-    animation-timing-function: ease-in-out ;
-    animation-iteration-count: infinite;
-    animation-duration: 0.5s;
-    animation-direction: reverse;
+    55% {opacity: 0.45;}
+    60% {opacity: 0.4;}
+    65% {opacity: 0.35;}
+    70% {opacity: 0.3;}
+    75% {opacity:.25;}
+    80% {opacity: 0.2;}
+    85% {opacity: 0.15;}
+    90% {opacity:.1;}
+    95% {opacity: 0.15;}
+    95% {opacity: 0.15;}
+    95% {opacity: 0.15;}
+    100% {opacity: 0;}
   }
 
-
-
+.top {
+    margin-top: -50px;
+}
 
 body {
     background-color:black;
@@ -68,7 +83,7 @@ p {
 a{
     display: flex;
     justify-content: center;
-    color:lightslategrey;
+    color: blue;
     font-size: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -82,11 +97,19 @@ div.quadrato {
   }
   
   @keyframes myfirst {
-    0%   {background-color:rgb(251, 255, 0); left:0px; top:0px;}
-    25%  {background-color:rgb(0, 255, 0); left:450px; top:0px;}
-    50%  {background-color:rgb(0, 217, 255); left:900px; top:0px;}
-    75%  {background-color:rgb(0, 45, 128); left:1350px; top:0px;}
-    100% {background-color:rgb(140, 0, 255); left:1800px; top:0px;}
+    0%   {background-color:rgb(55, 0, 255); left:0px; top:0px;}
+    25%  {background-color:rgb(255, 0, 0); left: 268.75px; top:20px;}
+    50%  {background-color:rgb(55, 0, 255); left:537.5px; top:-25px;}
+    75%  {background-color:rgb(255, 0, 0); left:806.25px; top:20px;}
+    100% {background-color:rgb(55, 0, 255); left:1075px; top:-25px;}
   }
 
+hr {
+    color: blue;
+}
 
+.gianni {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
