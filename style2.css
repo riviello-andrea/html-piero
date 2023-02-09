@@ -47,7 +47,6 @@ div.fading {
 
 body {
     background-color:black;
-
 }
 
 .carname {
@@ -64,21 +63,13 @@ h2 {
 }
 
 p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: whitesmoke
 }
 
 .s {
     display: flex;
     justify-content: space-evenly
-}
-
-p {
-    color: whitesmoke
-}
-
-.centro {
-    display: flex;
-    justify-content: center
 }
 
 .link{
@@ -90,7 +81,7 @@ p {
     animation: color-change 5s linear 2s infinite alternate;
 }
   
-  @keyframes color-change {
+@keyframes color-change {
     0%   {color:rgb(55, 0, 255);}
     25%  {color:rgb(255, 0, 0);}
     50%  {color:rgb(55, 0, 255)}
@@ -107,7 +98,7 @@ div.quadrato {
     animation: myfirst 5s linear 2s infinite alternate;
 }
   
-  @keyframes myfirst {
+@keyframes myfirst {
     0%   {background-color:rgb(55, 0, 255); left:0px; top:0px;}
     25%  {background-color:rgb(255, 0, 0); left: 268.75px; top:20px;}
     50%  {background-color:rgb(55, 0, 255); left:537.5px; top:-25px;}
@@ -119,12 +110,6 @@ hr {
     color: blue;
 }
 
-.gianni {
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
-}
-
 .css-waves {
     position: relative;
     width: 100%;
@@ -132,39 +117,44 @@ hr {
     margin-bottom: -7px; 
     min-height: 100px;
     max-height: 150px;
-  }
+}
   
-  .animated-waves > use {
+.animated-waves > use {
     animation: infinite-waves 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
-  }
-  .animated-waves > use:nth-child(1) {
+}
+
+.animated-waves > use:nth-child(1) {
     animation-delay: -2s;
     animation-duration: 7s;
-  }
-  .animated-waves > use:nth-child(2) {
+}
+
+.animated-waves > use:nth-child(2) {
     animation-delay: -3s;
     animation-duration: 10s;
-  }
-  .animated-waves > use:nth-child(3) {
+}
+
+.animated-waves > use:nth-child(3) {
     animation-delay: -4s;
     animation-duration: 13s;
-  }
-  .animated-waves > use:nth-child(4) {
+}
+
+.animated-waves > use:nth-child(4) {
     animation-delay: -5s;
     animation-duration: 20s;
-  }
-  @keyframes infinite-waves {
+}
+
+@keyframes infinite-waves {
     0% {
       transform: translate3d(-90px, 0, 0);
     }
     100% {
       transform: translate3d(85px, 0, 0);
     }
-  }
-  /* Mobile Optimization */
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .css-waves {
       height: 40px;
       min-height: 40px;
     }
-  }
+}
